@@ -1,0 +1,276 @@
+@charset "utf-8";
+
+
+
+/*
+
+	Author: Daniel Isaman
+
+	Date: November 5, 2018
+
+   
+	Filename: gr_style.css
+
+*/
+
+
+
+
+
+
+/* HTML and Body Styles */
+
+
+
+html {
+
+	min-width: auto;
+
+	background-color: rgb(54,172,226);
+
+}
+
+
+
+body {
+
+	margin: 0px;
+
+	min-width:100;
+
+	color: white;
+
+	font-family: 'Comic Sans MS', Arial, Times, serif;
+
+	font-size: 1.6em;
+
+	text-shadow: gray 0px 0px 20px, black 0px 0px 10px, black 2px 2px 4px;
+
+}
+
+
+
+
+
+
+
+/* Specific Styles */
+
+
+
+header {
+
+	position: relative;
+
+}
+
+
+body > header h1, h3, p{
+
+	text-align:center;
+
+	line-height: 0.3em;
+
+}
+
+
+
+h1 {
+
+	font-size: 3em;
+
+}
+
+
+
+p#button {
+
+	font-size: .8em;
+
+	color: rgb(237,152,33);
+}
+
+
+
+div {
+
+	float: left;
+
+	position: relative;
+
+}
+
+
+
+img {
+
+	position: absolute;
+
+	flex-flow: 1 1 auto;
+
+}
+
+
+
+img#bg {
+
+	position: relative;
+
+	width:100vw;
+
+}
+
+
+
+img#tree {
+
+	top: 19.5%;
+
+	left: 76.5%;
+
+	transform: rotateY(180deg);
+
+}
+
+
+
+img#whip {
+
+	visibility: hidden;
+
+	top: 37%;
+
+	left: 72.2%;
+
+}
+
+
+
+img#rock {
+
+	visibility: visible;
+
+	top: 44%;
+
+	left: -15%;
+
+	transform: rotateZ(290deg) rotateY(180deg);
+
+	filter: sepia(0.8) contrast(1.1) saturate(1.2);
+
+}
+
+
+
+img#running {
+
+	visibility: hidden;
+
+	top: 37%;
+
+	left: 0%;
+
+}
+
+
+
+img#still {
+
+	visibility: visible;
+
+	top: 37%;
+
+	left: 0%;
+
+	transform: rotateZ(0deg);
+
+}
+
+
+
+img#boom {
+
+	visibility: hidden;
+
+	top: 32%;
+
+	left: -9%;
+
+	transform: rotateZ(90deg);
+
+}
+
+
+
+img#down {
+
+	visibility: hidden;
+
+	top: 56%;
+
+	left: -2.5%;
+
+	transform: rotateZ(90deg);
+
+}
+
+
+
+img#press {
+
+	top: -12.5%;
+
+	left: 90%;
+
+	max-height: 100%;
+
+	border-radius: 5%;
+
+}
+
+
+
+
+
+footer {
+	font-size: .7em;
+
+	text-align: center;
+	line-height: 0.3em;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
