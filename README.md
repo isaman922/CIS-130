@@ -1,2 +1,3 @@
 # CIS-130
-Great race final project
+Web Design Final Project- Great Race
+Indian Jones tries to outrun the rolling stone (whether he wins is determined randomly)
